@@ -215,16 +215,9 @@ footer {
 h1 {
     font-size: 1.6em;
 }
-
 h2 {
-    color:#181717;
     font-size: 1em;
-    font-family: FreightText Pro Bold;
-    line-height: 1.1em;
-    margin:0;
-    padding-bottom:1em;
 }
-
 h3 {
   font-size: 12px;
   line-height: 1.5em;
@@ -234,5 +227,9 @@ h3 {
 }
 .logo img{
     height:44px;
+}
+p {
+  font-size:1em;
+  line-height:1.4em;
 }
    }

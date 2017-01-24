@@ -192,12 +192,7 @@ footer {
     font-size: 1.6em; }
 
   h2 {
-    color: #181717;
-    font-size: 1em;
-    font-family: FreightText Pro Bold;
-    line-height: 1.1em;
-    margin: 0;
-    padding-bottom: 1em; }
+    font-size: 1em; }
 
   h3 {
     font-size: 12px;
@@ -207,6 +202,10 @@ footer {
     width: 16px; }
 
   .logo img {
-    height: 44px; } }
+    height: 44px; }
+
+  p {
+    font-size: 1em;
+    line-height: 1.4em; } }
 
 /*# sourceMappingURL=style.css.map */
