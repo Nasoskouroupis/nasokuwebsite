@@ -57,7 +57,7 @@ body {
 
 .uppertitle, .title, .status {
   color: #181717;
-  padding-left: 2em; }
+  padding-left: 3em; }
 
 .project-title-col:before {
   content: ''; }
