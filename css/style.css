@@ -3,7 +3,7 @@ body {
   margin: 0px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: #535353;
+  color: #181717;
   line-height: 1.5em;
   letter-spacing: .2px;
   -webkit-font-smoothing: antialiased;
@@ -12,54 +12,142 @@ body {
 
 .display {
   width: 100%;
+  height: 720px;
   padding: 0;
   margin: 0;
-  background-color: #fbf2ef; }
+  background-color: #fbf2ef;
+  margin-bottom: 3em; }
 
 .header {
-  width: 100%;
   height: 80px;
-  display: flex; }
+  display: flex;
+  width: 74%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between; }
+
+.logo img {
+  height: 60px;
+  width: auto;
+  margin-left: 1em;
+  margin-top: 10px; }
 
 .call-request {
   color: #494545; }
 
 .banner {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  width: 100%;
+  height: 560px;
+  justify-content: space-between; }
 
 .project-title-col {
+  height: 560px;
   display: flex;
-  width: 26%; }
+  flex-direction: column;
+  width: 26%;
+  flex-grow: 1;
+  justify-content: flex-end; }
 
 .project-display-col {
   display: flex;
-  width: 74%; }
+  width: 70%;
+  overflow: hidden; }
 
 .uppertitle, .title, .status {
-  color: #181717; }
+  color: #181717;
+  padding-left: 2em; }
+
+.project-title-col:before {
+  content: ''; }
+
+.project-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f8f8f8; }
+
+.project-display img {
+  width: 100%; }
 
 h1 {
   color: #181717;
   font-size: 2.6em;
-  font-family: FreightText Pro Bold; }
+  font-family: FreightText Pro Bold;
+  line-height: 1.1em;
+  margin: 0;
+  padding-bottom: 1em; }
+
+h2 {
+  color: #181717;
+  font-size: 2em;
+  font-family: FreightText Pro Bold;
+  line-height: 1.1em;
+  margin: 0;
+  padding-bottom: 1em; }
+
+h3 {
+  font-size: 16px;
+  color: #494545;
+  line-height: 1.5em; }
 
 .menu {
   width: 74%;
-  text-align: right; }
-
-.article {
+  height: 80px;
   display: flex;
-  width: 100%; }
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
 
-.article-col {
-  width: 50%;
+.menu-icn, .menu-text {
+  padding: 0.3em; }
+
+.menu-icn img {
+  display: block;
+  width: 24px;
+  height: auto; }
+
+article {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center; }
+
+.article-col, .footnote-col {
+  width: 46%;
   align-items: center;
   justify-content: center; }
 
+.footnote-col {
+  margin-botton: 3em; }
+
 p {
-  font-size: 1em;
+  font-size: 1.24em;
+  line-height: 1.5em;
   font-family: FreightText Pro Book;
   color: #181717; }
+
+footer {
+  margin-top: 6em;
+  height: 240px;
+  width: 100%;
+  background-color: #fbf2ef;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.footer-container {
+  width: 74%;
+  height: 240px;
+  display: flex;
+  align-items: center; }
+
+.nasoku-info-col {
+  width: 74%; }
+
+.next-project-col {
+  width: 26%; }
 
 /*# sourceMappingURL=style.css.map */
