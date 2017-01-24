@@ -9,6 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight:500;
+  transition:all 0.3s ease;
  }
 
 .display {
@@ -23,7 +24,7 @@ body {
 .header {
   height:80px;
   display:flex;
-  width:74%;
+  width:80%;
   align-items: center;
   justify-content:center;
   justify-content: space-between;
@@ -107,7 +108,7 @@ h3 {
   line-height: 1.5em;
 }
 .menu {
-  width:74%;
+  width:80%;
   height:80px;
    display: flex;
    flex-direction: row;
@@ -170,17 +171,68 @@ footer {
 }
 
 
-// Breakpoints
-$bp-small: 48em; // 768px
-$bp-medium: 64em; // 1024px
-$bp-large: 85.375em; // 1366px
-$bp-xlarge: 120em; // 1920px
-$bp-xxlarge: 160em; // 2560px
+@media (min-width: 1920px) { 
+.display {
+  height:1020px;
+  margin-bottom:3em;
+}
+.banner {
+  height:860px;
+}
+.project-title-col {
+  height:860px;
+  width:16%;
+  }
+.project-display-col {
+  width:80%;
+}
+.project-display img {
+    width:100%;
+}
+.article-col, .footnote-col {
+  width:38%;
+}
+   }
 
-// Media Queries
-$mq-small: "(min-width: #{$bp-small})";
-$mq-medium: "(min-width: #{$bp-medium})";
-$mq-large: "(min-width: #{$bp-large})";
-$mq-xlarge: "(min-width: #{$bp-xlarge})";
-$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
-$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+@media (max-width: 1024px) { 
+.display {
+  height:620px;
+}
+.banner {
+  height:460px;
+}
+.project-title-col {
+  height:460px;
+  width:20%;
+  }
+.project-display-col {
+  width:70%;
+}
+.article-col, .footnote-col {
+  width:48%;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    color:#181717;
+    font-size: 1em;
+    font-family: FreightText Pro Bold;
+    line-height: 1.1em;
+    margin:0;
+    padding-bottom:1em;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 1.5em;
+}
+.menu-icn img {
+  width: 16px;
+}
+.logo img{
+    height:44px;
+}
+   }

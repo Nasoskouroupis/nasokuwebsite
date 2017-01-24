@@ -8,7 +8,8 @@ body {
   letter-spacing: .2px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 500; }
+  font-weight: 500;
+  transition: all 0.3s ease; }
 
 .display {
   width: 100%;
@@ -21,7 +22,7 @@ body {
 .header {
   height: 80px;
   display: flex;
-  width: 74%;
+  width: 80%;
   align-items: center;
   justify-content: center;
   justify-content: space-between; }
@@ -94,7 +95,7 @@ h3 {
   line-height: 1.5em; }
 
 .menu {
-  width: 74%;
+  width: 80%;
   height: 80px;
   display: flex;
   flex-direction: row;
@@ -149,5 +150,63 @@ footer {
 
 .next-project-col {
   width: 26%; }
+
+@media (min-width: 1920px) {
+  .display {
+    height: 1020px;
+    margin-bottom: 3em; }
+
+  .banner {
+    height: 860px; }
+
+  .project-title-col {
+    height: 860px;
+    width: 16%; }
+
+  .project-display-col {
+    width: 80%; }
+
+  .project-display img {
+    width: 100%; }
+
+  .article-col, .footnote-col {
+    width: 38%; } }
+@media (max-width: 1024px) {
+  .display {
+    height: 620px; }
+
+  .banner {
+    height: 460px; }
+
+  .project-title-col {
+    height: 460px;
+    width: 20%; }
+
+  .project-display-col {
+    width: 70%; }
+
+  .article-col, .footnote-col {
+    width: 48%; }
+
+  h1 {
+    font-size: 1.6em; }
+
+  h2 {
+    color: #181717;
+    font-size: 1em;
+    font-family: FreightText Pro Bold;
+    line-height: 1.1em;
+    margin: 0;
+    padding-bottom: 1em; }
+
+  h3 {
+    font-size: 12px;
+    line-height: 1.5em; }
+
+  .menu-icn img {
+    width: 16px; }
+
+  .logo img {
+    height: 44px; } }
 
 /*# sourceMappingURL=style.css.map */
