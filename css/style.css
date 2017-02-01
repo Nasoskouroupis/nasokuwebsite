@@ -108,7 +108,8 @@ h3 {
 .menu-icn img {
   display: block;
   width: 24px;
-  height: auto; }
+  height: auto;
+  cursor: pointer; }
 
 article {
   display: flex;
@@ -150,6 +151,21 @@ footer {
 
 .next-project-col {
   width: 26%; }
+
+.menu-expanded {
+  height: 940px;
+  width: 100%;
+  position: absolute;
+  background: #fbf2ef;
+  top: 0;
+  display: flex; }
+
+.menu-items {
+  list-style-type: none;
+  margin-left: 31em;
+  margin-top: 10em; }
+  .menu-items li {
+    padding-bottom: 3em; }
 
 @media (min-width: 1920px) {
   .display {
