@@ -23,6 +23,9 @@ a {
   background-color: #fbf2ef;
   margin-bottom: 3em; }
 
+body.is-showing-menu .display {
+  display: none; }
+
 .header {
   height: 80px;
   display: flex;
@@ -185,7 +188,11 @@ footer {
   top: 0;
   display: flex;
   flex: 1;
-  width: 100%; }
+  width: 100%;
+  display: none; }
+
+body.is-showing-menu .menu-expanded {
+  display: block; }
 
 .logo-menu img {
   height: 56px;
@@ -219,23 +226,17 @@ footer {
   .display {
     height: 1020px;
     margin-bottom: 3em; }
-
   .banner {
     height: 860px; }
-
   .project-title-col {
     height: 860px;
     width: 16%; }
-
   .project-display-col {
     width: 80%; }
-
   .project-display img {
     width: 100%; }
-
   .article-col, .footnote-col {
     width: 38%; }
-
   .menu-expanded {
     height: 940px;
     position: absolute;
@@ -244,95 +245,72 @@ footer {
     display: flex;
     flex: 1;
     width: 100%; }
-
   .logo-menu img {
     height: 56px;
     width: auto; }
-
   .nav-col-1 {
     display: flex;
     width: 28%;
     padding-top: 12em;
     justify-content: flex-end;
     margin-right: 24em; }
-
   .nav-col-2 {
     display: flex;
     width: 22%;
     flex-direction: column;
     padding-top: 12em;
     margin-right: 12em; }
-
   .nav-col-3 {
     display: flex;
     width: 32%;
     flex-direction: column;
     padding-top: 28em; }
-
   .nav-label, .contact {
     font-size: 0.8em;
     color: dimgray; }
-
   .footer-title {
     width: 28%; } }
+
 @media (max-width: 1024px) {
   .display {
     height: 620px; }
-
   .banner {
     height: 460px; }
-
   .project-title-col {
     height: 460px;
     width: 20%; }
-
   .project-display-col {
     width: 70%; }
-
   .article-col, .footnote-col {
     width: 48%; }
-
   h1 {
     font-size: 1.6em; }
-
   h2 {
     font-size: 1em; }
-
   h3 {
     font-size: 12px;
     line-height: 1.5em; }
-
   .menu-icn img {
     width: 16px; }
-
   .logo img {
     height: 44px; }
-
   p {
     font-size: 1em;
     line-height: 1.4em; }
-
   .menu-expanded {
     height: 540px; }
-
   .menu-close img {
     width: 16px; }
-
   .nav-col-1 {
     width: 20%;
     padding-top: 6em;
     margin-right: 6em; }
-
   .nav-col-2 {
     width: 38%;
     padding-top: 6em;
     margin-right: 2em; }
-
   .nav-col-3 {
     width: 16%;
     padding-top: 12em; }
-
   .footer-title {
     width: 90%; } }
-
-/*# sourceMappingURL=style.css.map */
